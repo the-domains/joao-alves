@@ -1,28 +1,40 @@
-name: João Alves
 favicon: null
-layout_spectrum: 0.7738259248435497
-typography_spectrum: 0.1552103403955698
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: João Alves
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.1573310901876539
-  lightness: 0.9504405003972352
-  saturation: 0.18604156817309558
-  rhythmicContrast: 0.4763377613853663
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.1860415681730956
+  lightness: 0.9504405003972352
+  brandStrength: 0.5311493
+  brandColors:
+    - '#5B89D0'
+    - '#31425C'
+    - '#010103'
+    - '#A2D0F2'
+    - '#FBFBFB'
+  rhythmicContrast: 0.4763377613853663
+typography_spectrum: 0.8759398
+layout_spectrum: 0.7738259248435497
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
